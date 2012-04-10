@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Welcome to Foundation</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<div class="container">
+
+<div id="nav" class="container">
+  <div class="row">
+
+      <div class="four columns hide-on-phones">
+        <strong><a href="/">Pressflow</a></strong>
+      </div>
+
+      <div class="eight columns hide-on-phones">
+      	<strong class="right">
+      		<a href="../faq.htm">FAQ</a>
+      		<a href="../pressflow-7">Pressflow 7</a>
+      		<a href="http://github.com/pressflow">Github</a>
+      	</strong>
+      </div>
+
+      <div class="twelve show-on-phones">
+        <dl class="nice vertical tabs">
+      		<dd><a href="../faq.htm">FAQ</a></dd>
+      		<dd><a href="../pressflow-7">Pressflow 7</a></dd>
+      		<dd><a href="http://github.com/pressflow">Github</a></dd>
+        </dl>
+      </div>
+
+  </div>
+</div>
+
+  <hr />
+
+  <div id="main" class="container">
+		<div class="row">
+			<div class="twelve columns text-center">
+				<h1>Pressflow</h2>
+				<p>Pressflow is a distribution of Drupal with integrated performance, scalability, availability, and testing enhancements.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="six columns text-right">
+     		<a href="#" class="nice radius large blue button">Download Pressflow 6</a>
+			</div>
+			<div class="six columns text-left">
+     		<p><a href="#" class="nice radius large blue button">View on Github</a></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="four columns">
+				<div class="panel">
+					<h4><a href="/">FAQ</a></h4>
+					<p>Answers to your most commonly asked questions.</p>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="panel">
+					<h4><a href="/">Documentation</a></h4>
+					<p>Learn tips and tricks from the wiki and share your own.</p>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="panel">
+					<h4><a href="/">Updates</a></h4>
+					<p>Stay in the loop with the Pressflow newsletter</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+      <div class="twelve columns">
+        <h3>Where's Pressflow 7?</h3>
+        <p>Drupal 7 has most of the important performance and scalability features of Pressflow 6. Pressflow 7 will eventually exist, and it will generally consist of Drupal 8 backports, enhancements we'd like to roll into Drupal 8 but need sooner for big projects, and probably some simplification/removal of Drupal 7 systems that slow down large sites but help smaller ones. <a href="/">Read more</a></p>
+      </div>
+		</div>
+
+    <div class="row">
+      <div class="six columns">
+        <h4>Stay connected</h4>
+        <p> 
+          <a href="#" class="button">Twitter</a>
+          <a href="#" class="button">Facebook</a>
+        </p>
+      </div>
+      <div class="six columns">
+        <h4>Newsletter</h4>
+        <form class="nice">
+          <input type="text" placeholder="you@email.com" class="input-text left"><input type="submit" value="Sign me up!" class="left radius button">
+        </form>
+      </div>
+    </div>
+
+</div><!-- /#main -->
+
+<hr />
+  
+  <footer class="container">
+    <div class="row">
+      <section class="six columns">
+    	 <h6><strong>Made with love</strong></h6>
+       <p>Pressflow was created by <a href="#">David Strauss</a> and is co-maintained by <a href="#">Four Kitchens</a> and <a href="#">Pantheon</a>.
+      </section>
+    	
+    	<section class="three columns">
+    	 <h6><strong>Using Pressflow?</strong></h6>
+    	 <p>Let us know how you're using Pressflow and we might feature you as an example! <a href="mailto:foundation@zurb.com?subject=I'm%20using%20Foundation">Get in touch →</a></p>
+      </section>
+    	    
+    	<section class="three columns">
+    	 <h6><strong>Need some help?</strong></h6>
+    	 <p>For quick answers or help <a href="mailto:foundation@zurb.com">email us →</a></p>
+      </section>
+    </div>
+  </footer>
+
+</div><!-- container -->
+
+	<!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+	<script src="javascripts/modernizr.foundation.js"></script>
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/app.js"></script>
+
+</body>
+</html>
